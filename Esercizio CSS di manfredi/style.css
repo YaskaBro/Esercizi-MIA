@@ -1,0 +1,24 @@
+section {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(144, 143, 143, 0.795);
+    border-radius: 20px;
+    width: 300px;
+}
+
+img {
+    width: 100%;
+    border-top: 20px;
+}
+
+h3>span {
+    color: white;
+    background-color: pink;
+    border-radius: 3px;
+    font-family: arial;
+}
+
+.card__descryption-lower-portrait {
+    width: 50px;
+    border-radius: 90px;
+}
