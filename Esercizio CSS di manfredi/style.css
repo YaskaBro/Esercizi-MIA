@@ -1,14 +1,17 @@
 section {
-    border-style: solid;
+    border-style: outset;
     border-width: 2px;
-    border-color: rgba(144, 143, 143, 0.795);
+    border-color: rgba(181, 178, 178, 0.472);
     border-radius: 20px;
     width: 300px;
+    margin: auto;
 }
 
 img {
     width: 100%;
-    border-top: 20px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 h3>span {
@@ -20,5 +23,5 @@ h3>span {
 
 .card__descryption-lower-portrait {
     width: 50px;
-    border-radius: 90px;
+    border-radius: 60%;
 }
