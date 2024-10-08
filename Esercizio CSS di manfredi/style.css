@@ -14,7 +14,6 @@ body  {
 
 .container {
     width: 20%;
-    height: 40%;
     background-color: #f0f0f0;
     border-radius: 8px;
     overflow: hidden;
@@ -25,25 +24,37 @@ body  {
 .card__immagine {
     width: 100%;
     height: auto;
+    img {
+        width: 100%;
+    }
 }
-  
+ 
 h2 {
     font-size: 10px;
 }
+.card__descryption {
+    padding: 15px;
+}
 
 .card__descryption-upper p {
-    font-size: 10px;
+    font-size: 7px;
     text-align: left;
+    margin-bottom: 40px;
+}
 
+h2 {
+    margin-bottom: 13px;
 }
 
 .type {
       font-size: 10px;
       text-align: center;
       background-color: purple;
-      border-radius: 30%;
+      border-radius: 10px;
       color: white;
       padding: 3px;
+      margin-bottom: 10px;
+      display: inline-block;
 }
 
 .card__descryption-lower-portrait {
@@ -61,4 +72,12 @@ h2 {
 .card__descryption-lower-past-time {
     font-size: 8px;
     color: grey;
+}
+
+.card__descryption-lower-portrait {
+    display: inline-block;
+}
+
+.card__descryption-name {
+    display: inline-block;
 }
