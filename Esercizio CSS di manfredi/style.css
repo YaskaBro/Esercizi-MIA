@@ -1,27 +1,50 @@
-section {
-    border-style: outset;
-    border-width: 2px;
-    border-color: rgba(181, 178, 178, 0.691);
-    border-radius: 20px;
-    width: 300px;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-img {
+body  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.container {
+    width: 20%;
+    height: 40%;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.card__immagine {
     width: 100%;
     height: auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
+  
 
-h3>span {
-    color: white;
-    background-color: pink;
-    border-radius: 3px;
-    font-family: arial;
+h2 {
+    font-size: 10px;
+}
+span {
+      font-size: 10px;
+      text-align: center;
+      background-color: purple;
+      border-radius: 30%;
+      color: white;
+      padding: 3px;
 }
 
 .card__descryption-lower-portrait {
-    width: 50px;
-    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
 }
+  
+  
