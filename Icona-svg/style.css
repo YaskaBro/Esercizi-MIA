@@ -1,0 +1,18 @@
+.star {
+    width: 32px;
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    top: -16px;
+    right: 45px;
+    background-color: white;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    width: 150px;
+    position: relative;
+    top: 100px;
+}
