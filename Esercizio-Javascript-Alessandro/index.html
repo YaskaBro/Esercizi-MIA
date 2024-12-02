@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <script src="./index.js"></script>
-</body>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="page-widget">
+      <button id="prev">prev</button>
+      <div class="pages">
+        <span id="page"></span> / <span id="total-pages"></span>
+      </div>
+      <button id="next">next</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>postId</th>
+          <th>id</th>
+          <th>name</th>
+          <th>email</th>
+          <th>body</th>
+        </tr>
+      </thead>
+      <tbody id="data"></tbody>
+    </table>
+    <script type= "module" src="./js/index.mjs"></script>
+  </body>
 </html>
