@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="page-widget">
+        <select id="sort">
+            <option value="id:ASC">Id ASC</option>
+            <option value="id:DESC">Id DESC</option>
+            <option value="name:ASC">Name ASC</option>
+            <option value="name:DESC">name DESC</option>
+        </select>
+        <select id="limit">
+            <option value="10">10</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="250">250</option>
+            <option value="*">All</option>
+        </select>
+        <button id="prev">Prev</button>
+        <div class="pages">
+            <span id="page"></span> / <span id="total-pages"></span>
+        </div>
+        <button id="next">Next</button>
+        <div id="searchBar">
+            Search <input type="search" id="search"> 
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>postId</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Body</th>
+                <th>Actions</th>
+            </tr>
+            <tbody id="data"></tbody>
+        </thead>
+    </table>
+    <script type="module" src="./js/index.mjs"></script>
+</body>
+</html>
